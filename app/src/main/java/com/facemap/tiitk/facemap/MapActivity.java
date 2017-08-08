@@ -179,7 +179,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                                 .geodesic(true)
                         );
                     }
-                    //Proceed with the Facebook api
+                    //pProceed with the Facebook api
                     fbApiCall();
                 } catch (Exception e) {
                     Log.d("onResponse", "There is an error");
@@ -229,7 +229,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                     }
                 }
         );
-        //Creating the body of the JSON request
+        //Creating the bodu of the JSON request
         Bundle parameters = new Bundle();
         parameters.putString("type","place");
         parameters.putString("q","cafe");
