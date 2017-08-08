@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\98e6d136fd1edf338b0f061b470544da55665504\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_bdaf0df8bf25850a2f8cd02059e49188a5ab9af6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta2_10d630a173d38861f5f6bf86d3fbab4a6eda68ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\6e2e47d4f8d626d77d83281b11896575f78e86dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_d7ddc211353d11f740bbd868919cec5b474af61b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\8334b57406866ce861fac1596e549a4f383faeb3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_dd350ca8f834802aed804ec2536327e8e8726fa9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\6dd5380a0209c53eca1e15c2bc7b621543e9af83\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_9b80ed9712f00c7f192038a137979f75442e461d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\gson-2.3.1_9ff723200a24efa90a1c043f5362fad516674daf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\22ca9a9626bb478c744405e27f11ecc00ab4a9b6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_0f4048fd2f4310dc38715bfc8acb93f108b713dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\a876b23590c8b555781f9bac647e318fa4f58b0f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_74c61aae78472aaa547a16e805f812fba1d9065e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_47460feeabbb76c0a00fade6b1ae15ea41d93249\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\39f6074b58dc571ad51c9a963b830d96a7061b9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_12e42c55c3403e694aff52d89de1c91bbce5ef0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta2_4cc49d3ce5de6d3ededec96f883fa4df2a66a3f8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b018ca54337392d65561d17b2aa96611711d31b6">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_203ab898b655eb1c489c1885b29563b1d28c24fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\ff31cfbdb702ab09e15908a4fb5a88ad0f854e59\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_934643b3c44cdd21c9f6e018818cd13c4d132869.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\e664cd477148694e19bacbd08414ab0583b76b2e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6fe1d43d5e3acb3bf32d7b83434623cc6ac3e4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\6e0ea5820928a44131dd1818f65d33d1e679dfde\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_065abbc6916c7a0683d9399bda4aabbb02e8d4ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_d8c72b5752ea270886173d74fea3fdd63dbb1d8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\25641b5edce2452f4d5bef4f23f20aa203413639\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_0bd6eee0a204e501b2b25d154ac72625e63f7190.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\okio-1.6.0_45a2941c8762c2a5a2f9fe599f2a4b3988fd944f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\4eae1d908a65e84160e64f40b6e649f127e6e63c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_9f04fe78fc68793b3fe5acab1d95b2d79874b645.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\f9842b4f728575c2ff242c4004c0ae6caa701293\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_241cf63343c6406d406a60c39138ab189aa029e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\7c9c3110a9682bf9516d4eca0ff0c4d51bde913a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_2ef27b720eeb53ab137cb13c33b9c285f3651182.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\c1b029087be4d7e2208b36712f2c11f6da02557c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8a5a114d4c39271f56bf1bef140c794bdb6f7188\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\f6411d95fb338c2015d994a527e3c9f83c718556\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_5965f959454a7c28baec31ba45d9f7d68c2c9bff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\4c991ef57b888543abdd3a65f9041103cbdbecf0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_5b0d375767be335ae8776ffcd722069f0af587ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\1b2dbe91c1c693d48b3813e35ffc09f7cf23aa2b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_f45e41b41d94c5c8989318ff4fd71601389077b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\4e4aadbab87bbaf2f9bcb0d1f165c3237dba0d0d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_271ac6d700a17fdec91db5c50333dc648d1c2024.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\074de9cd25454aa21fffd9b4946ff1d693c3dbb8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_65ed1c28c060471f3784697fa0f9ead5522a3edb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\b259d440d4c0478b1789f28d57088d95583acd1f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_c11ef5ced165300c080e76b66d63729849a0984a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_4d53bedeb44db0328b187bf1733506e3a0658ff4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\3416f27063d9b680e360d19bd2f7bdd404bf8767\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_75b6e344cc07983d8a2afdb2b77f5ed1cc77a177.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_f413c799dc03e27c417fe293584aa981140062c5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\32bd62cba0955eb4e2a9cf8c345f8b9a80770676\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b43d024fdc4f38f6e445413dab64a431b2bb66d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\bbe100cba19fac6b182e61cc0f8f7a9fd5134acc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_c8ab0031c29d55d9b21662b3899cc23078f6371d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\37a7f6e03ebc56aa899b921d4d311261e7d4de10\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_6cb9cb03a0ad76d01170ad5ee04e4da382919dc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\004f9775fd5a029a9d14716136eed50f3abf92aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_14dfe2dc0558ef46f15f1d76f657e31205454b90.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\bcf262e2b65ea0e89fc3b0a81dde233a37e3d1ad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8cc9b3e8c9471720f5c464ce2670d98585cba4f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\6e2e47d4f8d626d77d83281b11896575f78e86dc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7ddc211353d11f740bbd868919cec5b474af61b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\5c3a861f83f0bbefff1361c01556e16431496890\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_afa1e43d02ba6eeecaef60b0f3797aa9930da44a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\5759303062c4bfc5884535ccb48e985e3ecc754a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_3d35e196fd556494f2959d9e438e53e03f15479b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\0f8718c6d9f5baca268dd06cb938da8849c5dc2d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_7351d41a696db6d69fda95a4e5cda77081f02adf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\32bd62cba0955eb4e2a9cf8c345f8b9a80770676\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_b43d024fdc4f38f6e445413dab64a431b2bb66d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_47460feeabbb76c0a00fade6b1ae15ea41d93249.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\22ca9a9626bb478c744405e27f11ecc00ab4a9b6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f4048fd2f4310dc38715bfc8acb93f108b713dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\e664cd477148694e19bacbd08414ab0583b76b2e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_a6fe1d43d5e3acb3bf32d7b83434623cc6ac3e4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\362258237bb6244233cd996eb5c107d7aff15ab5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_2fed9ef40215d7966b2556dee907f3eef63d2f1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\6e0ea5820928a44131dd1818f65d33d1e679dfde\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_065abbc6916c7a0683d9399bda4aabbb02e8d4ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\9d3afa01060e2eadb0baba7f7c50dc69e7a80d0f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_1e6661a781e250253e8181f46260007d247a494f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\94c580818b35a681ab8a436a073548d87fd257bf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_fe45cf6360b2ddc16b7d043d873d6cd2d310a3f1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\7c9c3110a9682bf9516d4eca0ff0c4d51bde913a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ef27b720eeb53ab137cb13c33b9c285f3651182\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\c1b029087be4d7e2208b36712f2c11f6da02557c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_8a5a114d4c39271f56bf1bef140c794bdb6f7188.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\.android\build-cache\3416f27063d9b680e360d19bd2f7bdd404bf8767\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_75b6e344cc07983d8a2afdb2b77f5ed1cc77a177\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\b259d440d4c0478b1789f28d57088d95583acd1f\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_bfe7e4c81c3c7e6d60cd173547df08e842053a12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\a8ddedf0741f867c89e49c262e4c709e2b94e764\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_278cbbbe280cd6b886f9536a44658176f8f541f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\f2b7d2fa2ec683ce517eb60c4fde4979e3945c03\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_aecf83341e43ec2461ef7c0097b4215667ae7a44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\bcf262e2b65ea0e89fc3b0a81dde233a37e3d1ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_8cc9b3e8c9471720f5c464ce2670d98585cba4f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tiitk\.android\build-cache\60e01e457b238f90dae71adfce08bf5aa04103af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\pre-dexed\debug\classes_f358019c8ec28272e8d1ae5f0bdead0561b3ec97.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\tiitk\AndroidStudioProjects\Facemap\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2676d4144dcd8078a729f1337ecafb42443dff3f\classes.dex" />
+    </item>
+
+</items>
