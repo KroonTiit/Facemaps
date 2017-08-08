@@ -41,7 +41,9 @@ import retrofit.Response;
 import retrofit.Retrofit;
 
 import static java.lang.Double.parseDouble;
-
+/**
+ * Created by tiitk on 7.08.2017.
+ */
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 
     public LatLng middlePoint= null;
@@ -50,7 +52,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     LatLng dest;
     ArrayList<LatLng> MarkerPoints;
     Polyline line;
-    //CallbackManager callbackManager;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,12 +93,9 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng Model_Town = new LatLng(60.1699, 24.9384);
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Model_Town, 7));
-
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(Model_Town));
-//        mMap.animateCamera(CameraUpdateFactory.zoomTo(11));
+        // Move the camera in the vicinity of Helsinki to start
+        LatLng Helsinki = new LatLng(60.1699, 24.9384);
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Helsinki, 7));
 
         // Setting onclick event listener for the map
         mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
@@ -139,23 +137,24 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 if (MarkerPoints.size() >= 2) {
                     origin = MarkerPoints.get(0);
                     dest = MarkerPoints.get(1);
-                    build_travel_retrofit_and_get_response("driving");
+                    // Now that start and end points are set we call up googels api.
+                    buildTravelResponse("driving");
                 }
             }
         });
     }
 
-    private void build_travel_retrofit_and_get_response(String travelType) {
+    private void buildTravelResponse(String travelType) {
 
         String url = "https://maps.googleapis.com/maps/";
-
+        //Create the API call to google maps
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
         RetrofitMaps service = retrofit.create(RetrofitMaps.class);
-
+        //Call for the directions from google maps
         Call<Travel> callTravel = service.getDistanceDuration("metric", origin.latitude + "," + origin.longitude,dest.latitude + "," + dest.longitude, travelType);
         callTravel.enqueue(new Callback<Travel>() {
             @Override
@@ -166,11 +165,13 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                     if (line != null) {
                         line.remove();
                     }
-                    // This loop will go through all the results and add marker on each location.
+                    // This loop will go through all the results and add the route to travel.
                     for (int i = 0; i < response.body().getRoutes().size(); i++) {
                         String encodedString = response.body().getRoutes().get(0).getOverviewPolyline().getPoints();
                         List<LatLng> list = decodePoly(encodedString);
+                        //Create a middle point of the trip for Facebook API to reference
                         middlePoint = list.get((int) Math.ceil(list.size() / 2));
+                        //add the lines to the map to travel by
                         line = mMap.addPolyline(new PolylineOptions()
                                 .addAll(list)
                                 .width(20)
@@ -178,6 +179,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                                 .geodesic(true)
                         );
                     }
+                    //pProceed with the Facebook api
                     fbApiCall();
                 } catch (Exception e) {
                     Log.d("onResponse", "There is an error");
@@ -192,7 +194,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         });
     }
     private void fbApiCall(){
-
+        //Generate the API request
         GraphRequest GraphRequest = new GraphRequest(
                 AccessToken.getCurrentAccessToken(),
                 "/search",
@@ -200,41 +202,46 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 HttpMethod.GET,
                 new GraphRequest.Callback() {
                     public void onCompleted(GraphResponse response) {
+                        //Start parsing the JSON response from Facebook
                         JSONObject jsonResponse = response.getJSONObject();
-                        Log.e("error",""+response);
-                            try {
+                        try {
                             JSONArray jsonArray = jsonResponse.getJSONArray("data");
-                           for(int i=0;i<jsonArray.length();i++){
-                               JSONObject cafe = jsonArray.getJSONObject(i);
-                               String lat = cafe.getJSONObject("location").getString("latitude");
-                               String lng = cafe.getJSONObject("location").getString("longitude");
-                               MarkerOptions markerOptions = new MarkerOptions();
-                               LatLng latLng = new LatLng(parseDouble(lat),parseDouble(lng));
-                               markerOptions.position(latLng);
-                                // Adding Title to the Marker
-                               markerOptions.title(cafe.getString("name")+" : Likes:"+cafe.getString("fan_count"));
-                               // Adding colour to the marker
-                               markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
-                                // Adding Marker to the Camera.
-                               mMap.addMarker(markerOptions);
-                           }
+                            for(int i=0;i<jsonArray.length();i++){
+                                //Extract all the data about the cafes from the response
+                                JSONObject cafe = jsonArray.getJSONObject(i);
+                                //Geting the location of the cafe
+                                String lat = cafe.getJSONObject("location").getString("latitude");
+                                String lng = cafe.getJSONObject("location").getString("longitude");
+                                MarkerOptions markerOptions = new MarkerOptions();
+                                LatLng latLng = new LatLng(parseDouble(lat),parseDouble(lng));
+                                //Adding the position to the marker
+                                markerOptions.position(latLng);
+                                //Adding the title and the number of likes that the cafe has
+                                markerOptions.title(cafe.getString("name")+" : Likes:"+cafe.getString("fan_count"));
+                                // Adding colour to the marker
+                                markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
+                                // Adding Marker to the map.
+                                mMap.addMarker(markerOptions);
+                            }
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
                     }
                 }
         );
+        //Creating the bodu of the JSON request
         Bundle parameters = new Bundle();
         parameters.putString("type","place");
         parameters.putString("q","cafe");
         parameters.putString("center",""+middlePoint.latitude+","+middlePoint.longitude);
         parameters.putString("fields","fan_count,name, location");
-        parameters.putString("limit","15");
+        parameters.putString("limit","10");
         GraphRequest.setParameters(parameters);
         GraphRequest.executeAsync();
     }
 
     private List<LatLng> decodePoly(String encoded) {
+        //Decoding the route data into latitude na longitude
         List<LatLng> poly = new ArrayList<>();
         int index = 0, len = encoded.length();
         int lat = 0, lng = 0;
